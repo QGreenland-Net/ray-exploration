@@ -48,3 +48,8 @@ You can submit a python script that uses ray like this:
 ```
 ray job submit --working-dir ./ -- python ray_example.py
 ```
+
+
+## Additional resources
+
+* [RayCluster Configuration](https://docs.ray.io/en/latest/cluster/kubernetes/user-guides/config.html)
