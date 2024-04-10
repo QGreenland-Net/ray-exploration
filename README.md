@@ -53,3 +53,4 @@ ray job submit --working-dir ./ -- python ray_example.py
 ## Additional resources
 
 * [RayCluster Configuration](https://docs.ray.io/en/latest/cluster/kubernetes/user-guides/config.html)
+* [Quickstart using the Ray Jobs CLI](https://docs.ray.io/en/latest/cluster/running-applications/job-submission/quickstart.html)
