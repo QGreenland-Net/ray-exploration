@@ -1,13 +1,12 @@
+"""Simple example of a Ray task.
+
+See: https://docs.ray.io/en/latest/ray-core/tasks.html#ray-remote-functions
+"""
 import subprocess
 
 import ray
 
 ray.init()
-
-# Define the square task.
-@ray.remote
-def square(x):
-    return x * x
 
 @ray.remote
 def hostname():

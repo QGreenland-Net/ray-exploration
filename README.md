@@ -46,7 +46,7 @@ ray job submit --address http://localhost:8265 -- python -c "import ray; ray.ini
 You can submit a python script that uses ray like this:
 
 ```
-ray job submit --working-dir ./ -- python ray_example.py
+ray job submit --working-dir ./ -- python ray_task_example.py
 ```
 
 
@@ -54,3 +54,4 @@ ray job submit --working-dir ./ -- python ray_example.py
 
 * [RayCluster Configuration](https://docs.ray.io/en/latest/cluster/kubernetes/user-guides/config.html)
 * [Quickstart using the Ray Jobs CLI](https://docs.ray.io/en/latest/cluster/running-applications/job-submission/quickstart.html)
+* [Key concepts](https://docs.ray.io/en/latest/ray-core/key-concepts.html#core-key-concepts)
