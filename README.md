@@ -35,8 +35,16 @@ mamba activate ray-exploration
 Then, use the `ray submit` command to submit jobs:
 
 > [!NOTE]
-> TODO
+> These examples assume you have port-forwarded the kuberay head service as
+> described in the [RayCluster
+> Quickstart](https://docs.ray.io/en/latest/cluster/kubernetes/getting-started/raycluster-quick-start.html#method-2-submit-a-ray-job-to-the-raycluster-via-ray-job-submission-sdk)
 
 ```
 ray job submit --address http://localhost:8265 -- python -c "import ray; ray.init(); print('hello world')"
+```
+
+You can submit a python script that uses ray like this:
+
+```
+ray job submit --working-dir ./ -- python ray_example.py
 ```
