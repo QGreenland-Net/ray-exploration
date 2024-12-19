@@ -1,5 +1,7 @@
 # ray-exploration
 
+This repository has been archived.
+
 Exploration of the use of [ray](https://docs.ray.io/en/latest/index.html) for
 data processing pipelines in k8s:
 
